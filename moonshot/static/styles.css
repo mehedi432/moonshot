@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "General Sans Light";
+    src: url("/static/fonts/GeneralSans-Light.otf");
+    font-weight: normal;
+    font-style: normal ;
+}
+
+@font-face {
+    font-family: "General Sans Regular";
+    src: url("/static/fonts/GeneralSans-Regular.otf");
+    font-weight: normal;
+    font-style: normal ;
+}
+
+@font-face {
+    font-family: "General Sans Medium";
+    src: url("/static/fonts/GeneralSans-Medium.otf");
+    font-weight: normal;
+    font-style: normal ;
+}
+
+@font-face {
+    font-family: "General Sans Bold";
+    src: url("/static/fonts/GeneralSans-Semibold.otf");
+    font-weight: normal;
+    font-style: normal ;
+}
+
+.btn-moon {
+    background: transparent linear-gradient(70deg, #245EFB 0%, #B308B8 100%) 0% 0% no-repeat padding-box;
+}
+
+body {
+    background-color: #14161C;
+    font-family: 'General Sans Regular';
+}
+
+.hero-text {
+    font-family: 'General Sans Bold';
+    margin-top: 8rem !important;
+    font-size: 3.70rem;
+    line-height: normal;
+}
+
+.ul-moon {
+    opacity: 70%;
+    font-size: 1rem;;
+    color: #ffffff;
+}
+
+.ul-moon > li {
+    list-style-type: circle;
+    list-style-image: linear-gradient(180deg, #A610BF9B 0%, #3753F395 100%) 0% 0% no-repeat padding-box;
+}
+
+.no-bullet {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+  }
+
+.opacity-moon {
+    opacity: 50%;
+  }
+
+
+

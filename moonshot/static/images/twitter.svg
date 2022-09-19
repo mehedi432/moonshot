@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41.487" height="41.442" viewBox="0 0 41.487 41.442">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#245efb"/>
+      <stop offset="1" stop-color="#b308b8"/>
+    </linearGradient>
+  </defs>
+  <g id="twitter" transform="translate(-340.755 -339.755)">
+    <ellipse id="Ellipse_4" data-name="Ellipse 4" cx="20.744" cy="20.721" rx="20.744" ry="20.721" transform="translate(340.755 339.755)" fill="url(#linear-gradient)"/>
+    <path id="Path_4" data-name="Path 4" d="M372.482,354.34a8.7,8.7,0,0,1-2.5.67,4.324,4.324,0,0,0,1.907-2.387,8.55,8.55,0,0,1-2.751,1.046,4.339,4.339,0,0,0-7.5,2.964,4.982,4.982,0,0,0,.107.993,12.325,12.325,0,0,1-8.938-4.533,4.339,4.339,0,0,0,1.342,5.8,4.381,4.381,0,0,1-1.96-.551v.053a4.332,4.332,0,0,0,3.475,4.251,4.572,4.572,0,0,1-1.141.147,5.8,5.8,0,0,1-.819-.066,4.343,4.343,0,0,0,4.053,3,8.958,8.958,0,0,1-6.429,1.8,12.344,12.344,0,0,0,18.992-10.381c0-.188,0-.376-.013-.563A9.337,9.337,0,0,0,372.482,354.34Z" fill="#fff"/>
+  </g>
+</svg>

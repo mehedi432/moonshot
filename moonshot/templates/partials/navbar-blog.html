@@ -1,0 +1,49 @@
+{% load static %}
+{% load i18n %}
+<nav class="navbar navbar-expand-lg navbar-dark text-white mt-3 nav-moon"">
+    <div class="container">
+      <a class="navbar-brand text-white" href="{% url 'index' %}">
+        <img src="{% static 'images/moon.png' %}" alt="" width="190rem" height="69rem">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white me-4" aria-current="page" href="{% url 'index' %}#forinvestors">{% trans "For Investor" %}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white me-4" href="{% url 'index' %}#forcompanies">{% trans "For Companies" %}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white me-4" href="{% url 'blog_home' %}">{% trans "Blog" %}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white me-5" href="{% url 'index' %}#about">{% trans "About" %}</a>
+          </li>
+          <li class="nav-item" >
+            <a class="nav-link text-white btn btn-outline-dark pe-3 ps-3 btn-moon" href="{% url 'index' %}#foundnow">{% trans "Found Now!" %}</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            {% get_current_language as LANGUAGE_CODE %}
+            {% get_available_languages as LANGUAGES %}
+            {% get_language_info_list for LANGUAGES as languages %}
+          <a class="nav-link dropdown-toggle ms-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{LANGUAGE_CODE|upper}}
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #212529; ">
+            {% for lang in languages %}
+                <!--<a style='hover: none;' class="dropdown-item  border-0 text-white" href="{{ request.get_full_path|slice:'3:' }}">{{lang.code|upper}}</a>-->
+                <a href="/{{ lang.code }}{{ request.get_full_path|slice:'3:' }}"
+                    class="{% if lang.code == LANGUAGE_CODE %}selected{% endif %} dropdown-item  border-0 text-white" lang="{{ lang.code }}">{{ lang.code|upper }}
+                </a>
+            {% endfor %}
+          </ul>
+        </li>
+
+        </ul>
+      </div>
+    </div>
+</nav> 

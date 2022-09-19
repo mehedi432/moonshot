@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41.487" height="41.442" viewBox="0 0 41.487 41.442">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#245efb"/>
+      <stop offset="1" stop-color="#b308b8"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_10" data-name="Rectangle 10" width="11.389" height="23.406" transform="translate(298.457 349.501)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="facebook" transform="translate(-283 -340.559)">
+    <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="20.744" cy="20.721" rx="20.744" ry="20.721" transform="translate(283 340.559)" fill="url(#linear-gradient)"/>
+    <g id="Group_51" data-name="Group 51" clip-path="url(#clip-path)">
+      <path id="Path_3" data-name="Path 3" d="M301.364,372.907V361.924h-2.907V357.97h2.907v-3.377c0-2.654,1.718-5.092,5.675-5.092a23.98,23.98,0,0,1,2.787.154l-.094,3.692s-1.208-.011-2.526-.011c-1.427,0-1.656.656-1.656,1.747v2.887h4.3l-.187,3.954H305.55v10.983Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>
